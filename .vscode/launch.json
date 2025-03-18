@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Launch Java Program",
+        "request": "launch",
+        "mainClass": ""
+      },
+      {
+        "type": "java",
+        "name": "Current File",
+        "request": "launch",
+        "mainClass": "${file}"
+      },
+      {
+        "type": "java",
+        "name": "DemoApplication",
+        "request": "launch",
+        "mainClass": "com.example.demo.DemoApplication",
+        "projectName": "demo",
+        "env": {
+          "pessoa_nome": "João da Silva (Debug)",
+          "pessoa_idade": "38",
+          "pessoa_sexo": "Masculino",
+          "pessoa_estado_civil": "Casado (Debug)",
+          "pessoa_profissao": "Engenheiro de Software (Debug)"
+        }
+      }
+    ]
+  }
+  
